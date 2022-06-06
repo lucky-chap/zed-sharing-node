@@ -1,11 +1,12 @@
-// MySQL pluralizes the model names, so NounIndex will be nounindices in the database
+// MySQL pluralizes the model names, so AdjectiveIndex will be adjectiveindices in the database
+// But with Railway, it becomes AdjectiveIndices for the MySQL database
 
 'use strict';
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.bulkInsert(
-      'nounindices',
+      'AdjectiveIndices',
       [
         {
           currentIndex: 1,
@@ -18,6 +19,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.bulkDelete('nounindices', null, {});
+    await queryInterface.bulkDelete('AdjectiveIndices', null, {});
   },
 };

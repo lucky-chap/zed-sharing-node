@@ -14,14 +14,13 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   NounIndex.init(
-		{
-			currentIndex: DataTypes.INTEGER,
-		},
-		{
-			sequelize,
-			modelName: 'NounIndex',
-		}
-	)
+    {
+      currentIndex: DataTypes.INTEGER,
+    },
+    {
+      sequelize,
+      modelName: 'NounIndex',
+    },
+  );
   return NounIndex;
-
 };

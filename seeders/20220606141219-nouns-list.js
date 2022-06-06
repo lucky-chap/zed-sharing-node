@@ -1,4 +1,5 @@
 // MySQL pluralizes the model names, so NounList will be nounlists in the database
+// But with Railway, it becomes NounLists for the MySQL database
 
 'use strict';
 
@@ -14,10 +15,10 @@ module.exports = {
         updatedAt: new Date(),
       });
     });
-    await queryInterface.bulkInsert('nounlists', seedData, {});
+    await queryInterface.bulkInsert('NounLists', seedData, {});
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('nounlists', null, {});
+    await queryInterface.bulkDelete('NounLists', null, {});
   },
 };

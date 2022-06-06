@@ -12,11 +12,14 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  AdjectiveList.init({
-    word: DataTypes.STRING
-  }, {
-    sequelize,
-    modelName: 'AdjectiveList',
-  });
+  AdjectiveList.init(
+    {
+      word: DataTypes.STRING,
+    },
+    {
+      sequelize,
+      modelName: 'AdjectiveList',
+    },
+  );
   return AdjectiveList;
 };

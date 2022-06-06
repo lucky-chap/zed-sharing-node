@@ -1,4 +1,5 @@
-// MySQL pluralizes the model names, so AdjectiveList will be adjectivelists in the database
+// MySQL pluralizes the model names, so AdjectiveList should be adjectivelists in the database
+// But with Railway, it becomes AdjectiveLists for the MySQL database
 
 'use strict';
 
@@ -14,10 +15,10 @@ module.exports = {
         updatedAt: new Date(),
       });
     });
-    await queryInterface.bulkInsert('adjectivelists', seedData, {});
+    await queryInterface.bulkInsert('AdjectiveLists', seedData, {});
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('adjectivelists', null, {});
+    await queryInterface.bulkDelete('AdjectiveLists', null, {});
   },
 };

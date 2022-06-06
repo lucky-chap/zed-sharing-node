@@ -13,11 +13,14 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-  AdjectiveIndex.init({
-    currentIndex: DataTypes.INTEGER
-  }, {
-    sequelize,
-    modelName: 'AdjectiveIndex',
-  });
+  AdjectiveIndex.init(
+    {
+      currentIndex: DataTypes.INTEGER,
+    },
+    {
+      sequelize,
+      modelName: 'AdjectiveIndex',
+    },
+  );
   return AdjectiveIndex;
 };
