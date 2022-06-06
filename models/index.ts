@@ -10,7 +10,7 @@ const env = process.env.NODE_ENV || 'development';
 // the models folder is now located in the dist folder after build
 // you now have to move up from the models folder, and move up from the dist folder
 // only then can you access the config file in the config folder
-const config = require(__dirname + '/../../config/config.json')[env];
+const config = require(__dirname + '/../../config/config.ts')[env];
 
 let sequelize;
 if (config.use_env_variable) {
