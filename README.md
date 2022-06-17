@@ -9,7 +9,7 @@
   <h3 align="center">zed-sharing-node</h3>
 
   <p align="center">
-    Awesome gifs and images of your code
+    API for file sharing app built with the MERN Stack
     <br />
     <br />
     <a href="https://github.com/lucky-chap/zed-sharing-node/issues">Report Bug</a>
@@ -25,7 +25,7 @@
 This is the API for Zed, a file sharing platform I built for the Hashnode and Linode Hackathon.
 ❤️➕🌑
 
-### Built With
+### Built with
 
 - [NodeJS](https://nodejs.org/en/)
 - [MySQL](https://www.mysql.com/)
@@ -47,6 +47,33 @@ To get a local copy up and running follow these simple steps.
   yarn install # or npm install
   ```
 - Make sure you create a `.env` file and fill it with `.env.example` as reference
+- In [config.js](./config/config.js), remove the `dialectOptions` object as you would not be needing
+  it in development
+- Build, seed and migrate the database all together
+  ```sh
+  yarn build
+  ```
+- Now run the server
+  ```sh
+  yarn start
+  ```
+
+## Running the server in production
+
+To get a local copy up and running follow these simple steps.
+
+- Clone this repo (have git installed)
+  ```sh
+  git clone https://github.com/lucky-chap/zed-sharing-node.git
+  ```
+- Install dependencies (have nodejs installed)
+  ```sh
+  cd zed-sharing-node
+  yarn install # or npm install
+  ```
+- Make sure you create a `.env` file and fill it with `.env.example` as reference
+- Also remember to add an SSL certificate file to the config folder so `sequelize` can read from
+  there. This is required to connect to the MySQL database on your server
 - Build, seed and migrate the database all together
   ```sh
   yarn build

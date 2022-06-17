@@ -1,4 +1,5 @@
 require('dotenv').config();
+const fs = require('fs');
 
 module.exports = {
   development: {
@@ -6,8 +7,13 @@ module.exports = {
     password: `${process.env.DB_PASSWORD}`,
     database: `${process.env.DB_NAME}`,
     host: `${process.env.DB_HOST}`,
-    dialect: `${process.env.DB_DIALECT}`,
     port: `${process.env.DB_PORT}`,
+    dialect: `${process.env.DB_DIALECT}`,
+    dialectOptions: {
+      ssl: {
+        ca: fs.readFileSync(__dirname + './ca.crt'),
+      },
+    },
   },
   test: {
     username: `${process.env.TEST_DB_USER}`,
