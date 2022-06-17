@@ -11,7 +11,7 @@ module.exports = {
     dialect: `${process.env.DB_DIALECT}`,
     dialectOptions: {
       ssl: {
-        ca: fs.readFileSync(__dirname + './ca.crt'),
+        ca: fs.readFileSync(__dirname + '/../ca.crt'),
       },
     },
   },

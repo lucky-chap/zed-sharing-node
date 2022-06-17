@@ -72,7 +72,7 @@ To get a local copy up and running follow these simple steps.
   yarn install # or npm install
   ```
 - Make sure you create a `.env` file and fill it with `.env.example` as reference
-- Also remember to add an SSL certificate file to the config folder so `sequelize` can read from
+- Also remember to add an SSL certificate file to the `root` folder so `sequelize` can read from
   there. This is required to connect to the MySQL database on your server
 - Build, seed and migrate the database all together
   ```sh
