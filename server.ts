@@ -1,13 +1,15 @@
 import express from 'express';
 import http, { Server } from 'http';
 import cors from 'cors';
+import dotenv from 'dotenv';
+dotenv.config();
 
 import { createSlug } from './controllers/slugController';
 import { initSocket } from './sockets';
 
 const app = express();
 const server: Server = http.createServer(app);
-const port = 9000;
+const port = process.env.SERVER_PORT || 8000;
 
 app.use(cors());
 
