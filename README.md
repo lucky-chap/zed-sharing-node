@@ -3,7 +3,7 @@
 
 <div align="center">
   <a href="https://github.com/lucky-chap/zed-sharing-node/">
-    <img src="public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
+    <img src="./android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">zed-sharing-node</h3>
