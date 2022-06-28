@@ -1,5 +1,4 @@
-<img src='public/banner.jpg' alt='banner'>
-<br />
+<video src='public/zed-showcase.mp4'></video> <br />
 
 <div align="center">
   <a href="https://github.com/lucky-chap/zed-sharing-node/">
