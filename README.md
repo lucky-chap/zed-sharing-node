@@ -1,6 +1,6 @@
-<div id="top"></div>
-<!-- PROJECT LOGO -->
+<img src='public/banner.jpg' alt='banner'>
 <br />
+
 <div align="center">
   <a href="https://github.com/lucky-chap/zed-sharing-node/">
     <img src="public/android-chrome-512x512.png" alt="Logo" width="80" height="80">
@@ -9,7 +9,7 @@
   <h3 align="center">zed-sharing-node</h3>
 
   <p align="center">
-    API for file sharing app built with the MERN Stack
+    Backend for file sharing app built with the MERN Stack
     <br />
     <br />
     <a href="https://github.com/lucky-chap/zed-sharing-node/issues">Report Bug</a>
@@ -20,12 +20,12 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About The Project 😶‍🌫️
 
-This is the API for Zed, a file sharing platform I built for the Hashnode and Linode Hackathon.
-❤️➕🌑
+This is the API for Zed, a file sharing platform built with modern technologies ⌨️ You can find the
+frontend code [here](https://github.com/lucky-chap/zed-sharing-react)
 
-### Built with
+### Built with ✨
 
 - [NodeJS](https://nodejs.org/en/)
 - [MySQL](https://www.mysql.com/)
@@ -33,7 +33,7 @@ This is the API for Zed, a file sharing platform I built for the Hashnode and Li
 
 <!-- GETTING STARTED -->
 
-## Running the server locally
+## Running the server locally 🏠
 
 To get a local copy up and running follow these simple steps.
 
@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple steps.
   yarn start
   ```
 
-## Running the server in production
+## Running the server in production 🏨
 
 To get a local copy up and running follow these simple steps.
 
@@ -85,7 +85,7 @@ To get a local copy up and running follow these simple steps.
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## Contributing ➕
 
 You rock! Any contributions you make are **greatly appreciated**.
 
@@ -101,7 +101,7 @@ project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
+## License 📜
 
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
