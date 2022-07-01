@@ -21,8 +21,14 @@
 
 ## About The Project 😶‍🌫️
 
-This is the API for Zed, a file sharing platform built with modern technologies ⌨️ You can find the
+This is the API for Zed, a file sharing platform built for the Hashnode and Linode Hackathon ✨🎉 You can find the
 frontend code [here](https://github.com/lucky-chap/zed-sharing-react)
+
+
+
+
+https://user-images.githubusercontent.com/67266933/176914694-e406f435-f80d-4d1d-bc2f-bc8f334efe6d.mp4
+
 
 ### Built with ✨
 
