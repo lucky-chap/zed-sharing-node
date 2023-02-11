@@ -8,7 +8,7 @@ module.exports = {
     database: `${process.env.DB_NAME}`,
     host: `${process.env.DB_HOST}`,
     port: `${process.env.DB_PORT}`,
-    dialect: `${process.env.DB_DIALECT}`,
+    dialect: "mysql",
 //     dialectOptions: {
 //       ssl: {
 //         ca: fs.readFileSync(__dirname + '/../ca.crt'),
@@ -20,7 +20,7 @@ module.exports = {
     password: `${process.env.TEST_DB_PASSWORD}`,
     database: `${process.env.TEST_DB_NAME}`,
     host: `${process.env.TEST_DB_HOST}`,
-    dialect: `${process.env.TEST_DB_DIALECT}`,
+    dialect: "mysql",
     port: `${process.env.TEST_DB_PORT}`,
   },
   production: {
@@ -28,7 +28,7 @@ module.exports = {
     password: `${process.env.PROD_DB_PASSWORD}`,
     database: `${process.env.PROD_DB_NAME}`,
     host: `${process.env.PROD_DB_HOST}`,
-    dialect: `${process.env.PROD_DB_DIALECT}`,
+    dialect: "mysql",
     port: `${process.env.PROD_DB_PORT}`,
   },
 };
