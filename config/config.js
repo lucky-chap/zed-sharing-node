@@ -9,11 +9,11 @@ module.exports = {
     host: `${process.env.DB_HOST}`,
     port: `${process.env.DB_PORT}`,
     dialect: `${process.env.DB_DIALECT}`,
-    dialectOptions: {
-      ssl: {
-        ca: fs.readFileSync(__dirname + '/../ca.crt'),
-      },
-    },
+//     dialectOptions: {
+//       ssl: {
+//         ca: fs.readFileSync(__dirname + '/../ca.crt'),
+//       },
+//     },
   },
   test: {
     username: `${process.env.TEST_DB_USER}`,
